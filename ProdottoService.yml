@@ -1,8 +1,8 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    
-    url: jdbs:mysql://ustizcllcb7ofnpa:B68PHxwDsOI7iHAB5CWv@byvyplh8cbpv8qyr0wn5-mysql.services.clever-cloud.com:3306/byvyplh8cbpv8qyr0wn5
+
+    url: jdbc:mysql://ustizcllcb7ofnpa:B68PHxwDsOI7iHAB5CWv@byvyplh8cbpv8qyr0wn5-mysql.services.clever-cloud.com:3306/byvyplh8cbpv8qyr0wn5
     
     username: ustizcllcb7ofnpa
     
@@ -11,13 +11,14 @@ spring:
 
   application:
     name: ProdottoService
+    
 
   jpa:
     show-sql: true
     
+
     hibernate:
       ddl-auto: update
-
 
 server:
   port: 8091
